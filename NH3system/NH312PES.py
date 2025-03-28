@@ -21,7 +21,7 @@ symbols = ["N","H","H","H"]
 electrons = 10  # Number of electrons
 orbitals = 20  # Number of spin orbitals
 r_bohr = 1.8897259886  
-print('The bond length is 1.20A')
+print('The bond length is 1.20A- 60 Parameters in total')
 coordinates = np.array([[0.0,0.0, 0.0], [0.0, 0.0, 1.20*r_bohr], [0.950353*r_bohr,0.0,-0.336000*r_bohr],[-0.475176*r_bohr, -0.823029*r_bohr, -0.336000*r_bohr]])
 print("Coordinates are", coordinates)
 active_electrons = 6  #3 from N and 3 from H
